@@ -10,7 +10,11 @@ public class Sel {
 dr.get("http://greenstech.in/selenium-course-content.html");
 dr.MANAGE().window().maximise();
 dr.findElement();
+dr.close();
 	}
+	dr.quit();
+	xcghndfgbsdfgnhfdghndghjm
+	fghnjreyjuryjuryj
 
 }
 
