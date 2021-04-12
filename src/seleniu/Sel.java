@@ -8,6 +8,8 @@ public class Sel {
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\sony\\eclipse-workspace\\PRAKASH\\seleniu\\driver\\geckodriver.exe");
 	WebDriver dr= new FirefoxDriver();
 dr.get("http://greenstech.in/selenium-course-content.html");
+dr.MANAGE().window().maximise();
+dr.findElement();
 dr.close();
 	}
 	dr.quit();
